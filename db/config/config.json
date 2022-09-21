@@ -3,24 +3,24 @@
     "username": "root",
     "password": "12345",
     "database": "db",
-    "host": "127.0.0.1",
+    "host": "mysqldb",
     "dialect": "mysql",
     "operatorsAliases": 0
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password": "12345",
+    "database": "db",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "operatorsAliases": 0
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
+    "password": "12345",
+    "database": "db",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "operatorsAliases": 0
   }
 }

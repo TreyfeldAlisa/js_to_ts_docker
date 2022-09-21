@@ -7,6 +7,6 @@ export default (app: any) => {
     })
   );
 
-  app.get("/api/user", userController.index);
-  app.post("/api/user", userController.create);
+  app.get("/api/user", userController.User.index);
+  app.post("/api/user", userController.User.create);
 };
