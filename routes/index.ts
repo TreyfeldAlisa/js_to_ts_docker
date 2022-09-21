@@ -1,7 +1,7 @@
-const userController = require("../controllers").user;
+import userController from "../controllers";
 
-module.exports = (app) => {
-  app.get("/api", (req, res) =>
+export default (app: any) => {
+  app.get("/api", (req: string, res: any) =>
     res.status(200).send({
       message: "welcome to the Users API!",
     })
